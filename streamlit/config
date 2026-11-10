@@ -1,0 +1,15 @@
+[server]
+# 업로더 안내 문구와 실제 제한을 PRD의 10MB에 맞춘다 (app.py MAX_FILE_SIZE_MB와 같게 유지).
+maxUploadSize = 10
+
+[client]
+# 처리되지 않은 예외가 생겨도 오류 상세(파일 경로, 코드)를 사용자에게 보여주지 않는다. 상세는 서버 로그에 남는다.
+showErrorDetails = "none"
+
+[theme]
+base = "dark"
+primaryColor = "#D4A84B"
+backgroundColor = "#0F1629"
+secondaryBackgroundColor = "#1A2340"
+textColor = "#F1E9D6"
+font = "serif"
